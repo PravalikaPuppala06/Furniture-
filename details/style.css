@@ -1,0 +1,949 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .head1 img{
+    width: 6%;
+}
+header .head1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 0;
+}
+header .head2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    align-items: center;
+   
+}
+header .head2 .search img{
+    width: 10%;
+   
+}
+header .head2 .search{
+    width: 40%;
+    display: flex;  
+    border-radius: 12px;
+    background-color:gold;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+.search input{
+    border: none;
+    outline: none;
+    background: none;  
+    width: 90%; 
+}
+header .head2 ul{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    padding: 1vh;
+    justify-content: space-around;
+}
+ header .head2 .list-one{
+    color: rgb(219, 191, 35);
+ }
+
+ .webpage1{
+    width: 100%;
+}
+.webpage1 img{
+    width: 100%;
+}
+.down{
+    background-color: pink; 
+    padding: 1rem;
+}
+ .down .picture{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+ .down .picture img {
+    background-color: #dbaadb;
+    width: 80%;
+    height: 170px;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+ .down .image{ 
+    background:linear-gradient(to bottom,rgb(252, 88, 88),blue,rgb(108, 204, 108));
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    padding: 2rem;
+}
+.down .right{
+    margin-top: 1rem;
+}
+.webpage1 .down .right{
+    overflow: auto;
+}
+
+.webpage1 .down .right img{
+    width: 20%; 
+}
+.webpage1 .down .right h1{
+    margin: 1.5vh 0;
+    color: #eb72eb;   
+}
+.webpage1 .down .right h5{
+    font-weight: lighter;
+    width: 90%;
+    margin: 2vh 0;
+}
+.webpage1 .down .right .span{
+    margin: 1.5rem 0;
+}
+.webpage1 .down .right .lists{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.webpage1 .down .right .lists .list{
+    display: flex;
+    align-items: center;
+}
+.webpage1 .down .right .lists .list p{
+    margin-left: 0.5rem;
+ 
+}
+.down .right h4{
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+.flexbox{
+    display: flex; 
+    justify-content: space-around;
+    margin: 2vh 0;
+    width: 100%;
+}
+.box{
+    height: 35px;
+    width:35px;
+}
+.one-one{
+    background-color: lightsalmon;
+    border-radius:50%;
+}
+.two-two{
+    background-color: green;
+    border-radius:50%;
+}
+.three-three{
+    background-color: purple;
+    border-radius:50%;
+}
+.four-four{
+    background-color: lightblue;
+    border-radius:50%;
+}
+.five-five{
+    background-color:palevioletred;
+    border-radius:50%;
+}
+.six-six{
+    background-color:blue;
+    border-radius:50%;
+}
+.seven-seven{
+    background-color:brown;
+    border-radius:50%;
+}
+.webpage2{
+    
+    width: 100%;
+    margin: 3vh 0;
+}
+.webpage2 .down{
+    width: 100%;
+}
+.webpage2 img{
+    width: 100%;
+}
+.webpage2 .down  .para{
+    line-height: 2.2rem;
+    height: 70vh;
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+    border: 1px solid gray;
+    padding: 1rem;
+    place-items: center;
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+.webpage3{
+    width: 100%;
+    margin: 2vh 0;
+}
+.webpage3 img{
+    width: 100%;
+}
+.webpage3 .down .right .sub-right{
+    padding: 1rem;
+}
+.webpage3 .down .right .sub-right ul li{
+    margin: 1.8vh 0;
+} 
+.webpage4{
+    padding: 1.5rem; 
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+.webpage4  table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center; 
+    height: 10vh;
+}
+.webpage4  table{
+   width: 100%;
+}
+table tr td{
+    width: 20%;
+}
+.webpage4 .star_rating {
+    color:gold;
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+    margin: 1rem 0;
+}
+.webpage4 .star_rating .star{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.webpage5{
+    padding: 1.5rem; 
+}
+.webpage5 .left{
+    display: flex; 
+    justify-content: center;  
+    width: 100%;
+    padding: 1rem;
+}
+.webpage5 .right{
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    padding: 1rem;
+}
+.webpage5 .sub-tables table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width:50%; 
+    height: 10vh;
+}
+.webpage5 .sub-tables .left table{
+    width: 90%;
+}
+.webpage5 .sub-tables .right table{
+    width: 90%;
+}
+.webpage6{
+    text-align: center; 
+}
+.webpage6 .pictures .picture{
+    background-color:rgb(194, 167, 219); 
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.webpage6 .pictures .picture .img1{
+    background-color:palevioletred;
+    width: 50%;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.webpage6 .pictures .picture button{
+    width: 50%;
+    height: 30px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+    border: none;
+    background-color: gold;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 2vh;
+}
+.webpage6 .pictures .picture button img{
+    width: 15%;
+}
+.picture p{
+    width: 80%;
+    margin: auto;
+}
+.picture button img{
+    width: 20%;
+}
+.custo-review{
+    width: 100%;
+}
+.custo-review img{
+    max-width: 100%;
+}
+.custo-review .left{
+    width:100%;
+    padding: 1rem;
+}
+.custo-review .left .star_rating i{
+    color:gold;
+    font-size: 1.5rem;
+    margin-left: 0.3rem;
+    margin: 1rem 0;
+}
+.custo-review .left span{
+    font-size: 1.2rem; 
+    color:black;
+    position: relative;
+}
+.custo-review .left .sub-left .buttons{
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    position: relative; 
+ }
+ .custo-review .left .sub-left .buttons p{
+     width: 20%;
+ }
+.custo-review .left .sub-left  .buttons .button{
+    height: 30px;
+    width: 100%;
+    background-color: gold;
+    margin: 1rem;
+    border-radius: 20px;
+    margin-left: 1rem; 
+}
+.custo-review  .buttons .button1{
+    height: 30px;
+    width:20%; 
+    border-radius: 18px;
+    background-color:blue; 
+    position: absolute; 
+    left:17%;
+}
+ .custo-review .button2{
+    height: 30px;
+    width:30%;
+    border-radius: 18px;
+    background-color:blue;          
+    position: absolute;
+    left: 17%;
+}
+ .custo-review .button3{
+    width:17%;
+    height: 30px;
+    border-radius: 18px;
+    background-color:blue;          
+    position: absolute;
+    left:17%;
+}
+ .custo-review .button4{
+    width:10%;
+    height: 30px;
+    border-radius:18px ;
+    background-color:blue;          
+    position: absolute;
+    left:17%;
+}
+.custo-review .button5{
+    width:40%;
+    border-radius: 100px;
+    background-color:blue;          
+    height: 30px;
+    position: absolute;
+    left:17%;
+}
+.custo-review .right{
+    padding: 1rem;
+}
+.review{
+    background-color:white;
+    border: 1px solid gray;
+    margin-top: 2rem;
+    display: flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+ .review img{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+  
+} 
+.review .star_rating{
+    width:60%;
+    padding-left: 2rem; 
+}
+.review .star_rating .star{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: gold;
+}
+
+@media(min-width:500px) and (max-width:699px){
+    header .head1 h1{
+        font-size:1.8rem;
+    }
+    header .head2 .search{
+        width:30%;
+    } 
+    header .head2 .search{
+        width:30%;
+    } 
+    .down .left{
+        display: grid;
+        place-items: center;
+        }
+        .down .left .picture{
+            width: 78%;
+        }
+        .down .left .image{
+            width: 70%;
+        }
+        .down .right .flexbox .box{
+            height: 48px;
+            width: 48px;
+        }
+        .webpage1 .down .right h5{
+            font-size: 1.2rem;
+        }
+        .webpage6 .pictures {
+            width: 75%;
+            margin: auto;
+        }
+        .webpage6 .pictures .picture button{
+            width: 38%;
+        }
+        .custo-review .left p{
+            font-size: 1.2rem;
+        }
+        .custo-review .right{
+            width: 75%;
+            margin: auto;
+        }
+
+}
+@media(min-width:700px) and (max-width:1200px){
+    header {
+        display: flex;
+        width: 100%;
+    }
+    header .head1{
+        width: 25%;
+      
+    }
+    header .head1 img{
+        width: 15%;
+      
+    }
+    header .head2{
+         width: 75%; 
+        
+    }
+    header .head2 .search{
+        width: 30%;
+       
+    }
+    header .head2 ul{
+        width: 50%;
+        
+    }
+    .head2 .search{
+        height: 25px; 
+   }
+   .webpage1 {
+    margin-top: 2rem; 
+}
+.down{
+   background: none;
+}
+
+.down .left .picture{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+.down .left .image{
+    width: 40%; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     margin: auto; 
+}
+.down .lists{
+   width: 70%;
+}
+.down .right .flexbox {
+   width: 65%;
+}
+.down .right .flexbox .box{
+    height: 45px; 
+   width: 45px; 
+}
+.webpage5 .sub-tables {
+   display: flex;
+}
+.webpage6 .pictures .picture button{
+    width: 45%;  
+}
+.webpage6 .pictures{
+   padding: 2rem;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.custo-review .left{
+   width: 60%;
+}
+.custo-review .right .reviews{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 0 3rem;
+}
+}
+@media(min-width:1200px){
+    header{
+        display: flex; 
+    }
+    .head1{
+         font-size: 1.5rem;
+         width: 25%;  
+    }
+    .head1 img{
+        height: 30px;
+        width: 100%;
+    }
+    header .head2 .search img{
+         width: 25px;
+        height: 25px;
+        margin-left: 1rem; 
+    }
+    header .head2 .search{
+        width: 500px;
+        height: 40px;
+        display: flex;  
+        border-radius: 20px;
+        background-color:gold;
+        padding: 0.4rem; 
+        }
+    header .head2 ul{
+        width: 40%;
+        font-size: 1.5rem;
+    }
+    .webpage1{
+        height: 100vh;
+        padding-top: 0.5rem;
+    }
+    header{
+        height: 10vh; 
+        padding-top: 1rem;
+    }
+    header .head1{
+        padding-bottom: 1rem;
+    }
+    header .head1 h1{
+        font-size: 1.7rem;
+    }
+    header .head1 img{
+        width: 11%;
+    }
+    header .head2 .search{
+        height: 30px;
+        width: 35%;
+    }
+     header .head2 .search img{
+        width: 5%;
+        height: 20px;
+    }
+     .down{
+        width: 100%;
+        display: flex;
+        height: 90vh;
+        background: none;
+    }
+     .down .left{
+        width: 50%;
+        display: flex; 
+    }
+     .down .left .picture{
+        height: 85vh;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;     
+    }
+      .down .left .picture img{
+        height: 100px;
+        width:140px;
+        border-radius: 20px;
+        padding: 0.5rem;
+        margin: 1.3rem; 
+    } 
+     .down .left .image{
+        width: 75%;
+        height:700px;
+        background: none; 
+        margin-top: -8rem;
+    }
+    .down .right{
+        width: 50%;
+        height: 80vh;
+        padding-left: 2rem;
+    }
+    .webpage1 .down .right h1{
+        font-size: 2rem;
+        margin: 2vh 0;
+    }
+    .webpage1 .down .right h5{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width: 70%; 
+    }
+    .webpage1 .down .right s{
+        font-size: 1.3rem;
+    }
+    .webpage1 .down .right span{
+        font-size: 2rem;
+        color: blue;
+     } 
+    .webpage1 .down .right .lists p{
+         margin-left: 1rem;  
+        font-size: 1.2rem;
+    }
+    .webpage1 .down .right h4{
+        margin: 3vh 0;
+        font-size: 2rem;
+    }
+    .box{
+        height: 50px;
+        width:50px;
+    }
+    .webpage1 .flexbox{
+        margin-top: 3rem;
+    }
+    .webpage2{
+        height: 100vh;
+        /* width: 100%; */
+    }
+    .webpage2 .right{
+        padding-left: 2rem;
+    }
+    .webpage2 .right h4{
+        font-size: 2rem;
+    }
+    .webpage2 .para p{
+        font-size: 1.3rem;
+        line-height: 3.5rem;
+    }
+    .webpage3{
+        height: 100vh;
+    }
+    .webpage3 .right{
+        padding-left: 2rem;
+        width: 50%;
+        height: 80vh;
+    }
+    .webpage3 .right .sub-right h1{
+        font-size: 1.7rem;
+    }
+    .webpage3 .right .sub-right ul{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+    }
+    .webpage4{
+        height: 100vh;
+    }
+    .webpage5{
+        height: 100vh;
+    }
+    .webpage5 .sub-tables{
+        display: flex;
+    }
+    .webpage6{
+        height: 100vh;
+        display: flex; 
+        flex-direction: column; 
+         align-items: center; 
+         justify-content: center; 
+    }
+    .webpage6 .pictures{
+       display: flex;    
+    }
+    .webpage6 .pictures .picture{
+        width: 40%;
+    }
+    .webpage6 .pictures .picture button{
+        width: 55%;
+    }
+    .custo-review{
+        height: 100vh;
+        display: flex;
+    }
+    .custo-review .left{
+        width:40%;
+        padding: 1.5rem;
+    }
+     .custo-review .left .sub-left .buttons p{
+        font-size: 1.3rem;
+     }
+    
+    .custo-review .right{
+         width: 60%;
+    }
+    .custo-review .right .reviews{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 2rem ;    
+        }
+    }
+
+/*tablet */
+@media(min-width:700px) and(max-width:1200px){
+    header .head1 h1{
+        font-size:1.8rem;
+    }
+    header .head2 .search{
+        width:30%;
+    } 
+    header .head2 .search{
+        width:30%;
+    } 
+    .webpage1 {
+        margin-top: 2rem; 
+   }
+   .down{
+       background: none;
+   }
+   
+   .down .left .picture{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+   }
+   .down .left .image{
+        width: 40%; 
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+         margin: auto; 
+   }
+   .down .lists{
+       width: 70%;
+   }
+   .down .right .flexbox {
+       width: 65%;
+   }
+   .down .right .flexbox .box{
+        height: 45px; 
+       width: 45px; 
+   }
+   .webpage5 .sub-tables {
+       display: flex;
+   }
+   .webpage6 .pictures .picture button{
+        width: 45%;  
+   }
+   .webpage6 .pictures{
+       padding: 2rem;
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+   }
+   .custo-review .left{
+       width: 60%;
+   }
+   .custo-review .right .reviews{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 0 3rem;
+   }
+}
+
+
+
+
+
+/* laptop */
+@media(min-width:1200px){
+    .webpage1{
+        height: 100vh;
+        padding-top: 0.5rem;
+    }
+    header{
+        height: 10vh; 
+        padding-top: 1rem;
+    }
+    header .head1{
+        padding-bottom: 1rem;
+    }
+    header .head1 h1{
+        font-size: 1.7rem;
+    }
+    header .head1 img{
+        width: 11%;
+    }
+    header .head2 .search{
+        height: 30px;
+        width: 35%;
+    }
+     header .head2 .search img{
+        width: 5%;
+        height: 20px;
+    }
+     .down{
+        width: 100%;
+        display: flex;
+        height: 90vh;
+        background: none;
+    }
+     .down .left{
+        width: 50%;
+        display: flex; 
+    }
+     .down .left .picture{
+        height: 85vh;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;     
+    }
+      .down .left .picture img{
+        height: 100px;
+        width:140px;
+        border-radius: 20px;
+        padding: 0.5rem;
+        margin: 1.3rem; 
+    } 
+     .down .left .image{
+        width: 75%;
+        height:700px;
+        background: none; 
+        margin-top: -8rem;
+    }
+    .down .right{
+        width: 50%;
+        height: 80vh;
+        padding-left: 2rem;
+    }
+    .webpage1 .down .right h1{
+        font-size: 2rem;
+        margin: 2vh 0;
+    }
+    .webpage1 .down .right h5{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width: 70%; 
+    }
+    .webpage1 .down .right s{
+        font-size: 1.3rem;
+    }
+    .webpage1 .down .right span{
+        font-size: 2rem;
+        color: blue;
+     } 
+    .webpage1 .down .right .lists p{
+         margin-left: 1rem;  
+        font-size: 1.2rem;
+    }
+    .webpage1 .down .right h4{
+        margin: 3vh 0;
+        font-size: 2rem;
+    }
+    .box{
+        height: 50px;
+        width:50px;
+    }
+    .webpage1 .flexbox{
+        margin-top: 3rem;
+    }
+    .webpage2{
+        height: 100vh;
+    }
+    .webpage2 .right{
+        padding-left: 2rem;
+    }
+    .webpage2 .right h4{
+        font-size: 2rem;
+    }
+    .webpage2 .para p{
+        font-size: 1.3rem;
+        line-height: 3.5rem;
+    }
+    .webpage3{
+        height: 100vh;
+    }
+    .webpage3 .right{
+        padding-left: 2rem;
+        width: 50%;
+        height: 80vh;
+    }
+    .webpage3 .right .sub-right h1{
+        font-size: 1.7rem;
+    }
+    .webpage3 .right .sub-right ul{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+    }
+    .webpage4{
+        height: 100vh;
+    }
+    .webpage5{
+        height: 100vh;
+    }
+    .webpage5 .sub-tables{
+        display: flex;
+    }
+    .webpage6{
+        height: 100vh;
+        display: flex; 
+        flex-direction: column; 
+         align-items: center; 
+         justify-content: center; 
+    }
+    .webpage6 .pictures{
+       display: flex;    
+    }
+    .webpage6 .pictures .picture{
+        width: 40%;
+    }
+    .webpage6 .pictures .picture button{
+        width: 55%;
+    }
+    .custo-review{
+        height: 100vh;
+        display: flex;
+    }
+    .custo-review .left{
+        width:40%;
+        padding: 1.5rem;
+    }
+     .custo-review .left .sub-left .buttons p{
+        font-size: 1.3rem;
+     }
+    
+    .custo-review .right{
+         width: 60%;
+    }
+    .custo-review .right .reviews{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 2rem ;    
+    }
+}
