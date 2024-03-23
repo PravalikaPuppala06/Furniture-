@@ -1,1 +1,1 @@
-Developed this project using html,css
+Developed this project using Html,CSS technologies
